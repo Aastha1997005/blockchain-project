@@ -3569,3 +3569,193 @@ Import traces:
   44 |       const statusNames = ["None", "Verified", "Revoked"];
   45 |       // status is returned as bigint or number from ethers v6. convert to Number()
   46 |       setUserStatus(statusNames[Number(identity.status)]); (src/app/page.js:58:15)
+⚠ Fast Refresh had to perform a full reload when ./src/app/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload when ./src/app/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+⚠ Fast Refresh had to perform a full reload when ./src/app/page.js changed. Read more: https://nextjs.org/docs/messages/fast-refresh-reload
+[browser] Error: Failed to upload to Pinata
+    at uploadToIPFS (src/app/page.js:73:26)
+  71 |       });
+  72 |       
+> 73 |       if (!res.ok) throw new Error("Failed to upload to Pinata");
+     |                          ^
+  74 |       
+  75 |       const resData = await res.json();
+  76 |       setCid(resData.IpfsHash); (src/app/page.js:80:15)
+[browser] Error: Failed to upload to Pinata
+    at uploadToIPFS (src/app/page.js:73:26)
+  71 |       });
+  72 |       
+> 73 |       if (!res.ok) throw new Error("Failed to upload to Pinata");
+     |                          ^
+  74 |       
+  75 |       const resData = await res.json();
+  76 |       setCid(resData.IpfsHash); (src/app/page.js:80:15)
+[browser] Error: Failed to upload to Pinata
+    at uploadToIPFS (src/app/page.js:73:26)
+  71 |       });
+  72 |       
+> 73 |       if (!res.ok) throw new Error("Failed to upload to Pinata");
+     |                          ^
+  74 |       
+  75 |       const resData = await res.json();
+  76 |       setCid(resData.IpfsHash); (src/app/page.js:80:15)
+[browser] Pinata Upload Error Status: 401 
+    at uploadToIPFS (src/app/page.js:75:17)
+  73 |       if (!res.ok) {
+  74 |         const errorData = await res.json(); // Attempt to read error message
+> 75 |         console.error("Pinata Upload Error Status:", res.status);
+     |                 ^
+  76 |         console.error("Pinata Upload Error Data:", errorData);
+  77 |         throw new Error(`Failed to upload to Pinata: ${errorData.error ? errorData.error :...
+  78 |       } (src/app/page.js:75:17)
+[browser] Pinata Upload Error Data: {
+  error: {
+    details: [32m'token signature is invalid: signature is invalid'[39m,
+    reason: [32m'INVALID_CREDENTIALS'[39m
+  }
+} 
+    at uploadToIPFS (src/app/page.js:76:17)
+  74 |         const errorData = await res.json(); // Attempt to read error message
+  75 |         console.error("Pinata Upload Error Status:", res.status);
+> 76 |         console.error("Pinata Upload Error Data:", errorData);
+     |                 ^
+  77 |         throw new Error(`Failed to upload to Pinata: ${errorData.error ? errorData.error :...
+  78 |       }
+  79 |        (src/app/page.js:76:17)
+[browser] Error: Failed to upload to Pinata: [object Object]
+    at uploadToIPFS (src/app/page.js:77:15)
+  75 |         console.error("Pinata Upload Error Status:", res.status);
+  76 |         console.error("Pinata Upload Error Data:", errorData);
+> 77 |         throw new Error(`Failed to upload to Pinata: ${errorData.error ? errorData.error :...
+     |               ^
+  78 |       }
+  79 |       
+  80 |       const resData = await res.json(); (src/app/page.js:85:15)
+[browser] Pinata Upload Error Status: 401 
+    at uploadToIPFS (src/app/page.js:75:17)
+  73 |       if (!res.ok) {
+  74 |         const errorData = await res.json(); // Attempt to read error message
+> 75 |         console.error("Pinata Upload Error Status:", res.status);
+     |                 ^
+  76 |         console.error("Pinata Upload Error Data:", errorData);
+  77 |         throw new Error(`Failed to upload to Pinata: ${errorData.error ? errorData.error :...
+  78 |       } (src/app/page.js:75:17)
+[browser] Pinata Upload Error Data: {
+  error: {
+    details: [32m'token signature is invalid: signature is invalid'[39m,
+    reason: [32m'INVALID_CREDENTIALS'[39m
+  }
+} 
+    at uploadToIPFS (src/app/page.js:76:17)
+  74 |         const errorData = await res.json(); // Attempt to read error message
+  75 |         console.error("Pinata Upload Error Status:", res.status);
+> 76 |         console.error("Pinata Upload Error Data:", errorData);
+     |                 ^
+  77 |         throw new Error(`Failed to upload to Pinata: ${errorData.error ? errorData.error :...
+  78 |       }
+  79 |        (src/app/page.js:76:17)
+[browser] Error: Failed to upload to Pinata: [object Object]
+    at uploadToIPFS (src/app/page.js:77:15)
+  75 |         console.error("Pinata Upload Error Status:", res.status);
+  76 |         console.error("Pinata Upload Error Data:", errorData);
+> 77 |         throw new Error(`Failed to upload to Pinata: ${errorData.error ? errorData.error :...
+     |               ^
+  78 |       }
+  79 |       
+  80 |       const resData = await res.json(); (src/app/page.js:85:15)
+[browser] Pinata Upload Error Status: 401 
+    at uploadToIPFS (src/app/page.js:75:17)
+  73 |       if (!res.ok) {
+  74 |         const errorData = await res.json(); // Attempt to read error message
+> 75 |         console.error("Pinata Upload Error Status:", res.status);
+     |                 ^
+  76 |         console.error("Pinata Upload Error Data:", errorData);
+  77 |         throw new Error(`Failed to upload to Pinata: ${errorData.error ? errorData.error :...
+  78 |       } (src/app/page.js:75:17)
+[browser] Pinata Upload Error Data: {
+  error: {
+    details: [32m'token signature is invalid: signature is invalid'[39m,
+    reason: [32m'INVALID_CREDENTIALS'[39m
+  }
+} 
+    at uploadToIPFS (src/app/page.js:76:17)
+  74 |         const errorData = await res.json(); // Attempt to read error message
+  75 |         console.error("Pinata Upload Error Status:", res.status);
+> 76 |         console.error("Pinata Upload Error Data:", errorData);
+     |                 ^
+  77 |         throw new Error(`Failed to upload to Pinata: ${errorData.error ? errorData.error :...
+  78 |       }
+  79 |        (src/app/page.js:76:17)
+[browser] Full Upload Error: Error: Failed to upload to Pinata: [object Object]
+    at uploadToIPFS (src/app/page.js:77:15)
+  75 |         console.error("Pinata Upload Error Status:", res.status);
+  76 |         console.error("Pinata Upload Error Data:", errorData);
+> 77 |         throw new Error(`Failed to upload to Pinata: ${errorData.error ? errorData.error :...
+     |               ^
+  78 |       }
+  79 |       
+  80 |       const resData = await res.json(); (src/app/page.js:85:15)
+[browser] Pinata Upload Error Status: 401 
+    at uploadToIPFS (src/app/page.js:75:17)
+  73 |       if (!res.ok) {
+  74 |         const errorData = await res.json(); // Attempt to read error message
+> 75 |         console.error("Pinata Upload Error Status:", res.status);
+     |                 ^
+  76 |         console.error("Pinata Upload Error Data:", errorData);
+  77 |         throw new Error(`Failed to upload to Pinata: ${errorData.error ? errorData.error :...
+  78 |       } (src/app/page.js:75:17)
+[browser] Pinata Upload Error Data: {
+  error: {
+    details: [32m'token signature is invalid: signature is invalid'[39m,
+    reason: [32m'INVALID_CREDENTIALS'[39m
+  }
+} 
+    at uploadToIPFS (src/app/page.js:76:17)
+  74 |         const errorData = await res.json(); // Attempt to read error message
+  75 |         console.error("Pinata Upload Error Status:", res.status);
+> 76 |         console.error("Pinata Upload Error Data:", errorData);
+     |                 ^
+  77 |         throw new Error(`Failed to upload to Pinata: ${errorData.error ? errorData.error :...
+  78 |       }
+  79 |        (src/app/page.js:76:17)
+[browser] Full Upload Error: Error: {"reason":"INVALID_CREDENTIALS","details":"token signature is invalid: signature is invalid"}
+    at uploadToIPFS (src/app/page.js:78:15)
+  76 |         console.error("Pinata Upload Error Data:", errorData);
+  77 |         const errorMsg = errorData.error ? (typeof errorData.error === 'object' ? JSON.str...
+> 78 |         throw new Error(errorMsg);
+     |               ^
+  79 |       }
+  80 |       
+  81 |       const resData = await res.json(); (src/app/page.js:86:15)
+[browser] Pinata Upload Error Status: 401 
+    at uploadToIPFS (src/app/page.js:75:17)
+  73 |       if (!res.ok) {
+  74 |         const errorData = await res.json(); // Attempt to read error message
+> 75 |         console.error("Pinata Upload Error Status:", res.status);
+     |                 ^
+  76 |         console.error("Pinata Upload Error Data:", errorData);
+  77 |         throw new Error(`Failed to upload to Pinata: ${errorData.error ? errorData.error :...
+  78 |       } (src/app/page.js:75:17)
+[browser] Pinata Upload Error Data: {
+  error: {
+    details: [32m'token signature is invalid: signature is invalid'[39m,
+    reason: [32m'INVALID_CREDENTIALS'[39m
+  }
+} 
+    at uploadToIPFS (src/app/page.js:76:17)
+  74 |         const errorData = await res.json(); // Attempt to read error message
+  75 |         console.error("Pinata Upload Error Status:", res.status);
+> 76 |         console.error("Pinata Upload Error Data:", errorData);
+     |                 ^
+  77 |         throw new Error(`Failed to upload to Pinata: ${errorData.error ? errorData.error :...
+  78 |       }
+  79 |        (src/app/page.js:76:17)
+[browser] Full Upload Error: Error: {"reason":"INVALID_CREDENTIALS","details":"token signature is invalid: signature is invalid"}
+    at uploadToIPFS (src/app/page.js:78:15)
+  76 |         console.error("Pinata Upload Error Data:", errorData);
+  77 |         const errorMsg = errorData.error ? (typeof errorData.error === 'object' ? JSON.str...
+> 78 |         throw new Error(errorMsg);
+     |               ^
+  79 |       }
+  80 |       
+  81 |       const resData = await res.json(); (src/app/page.js:86:15)
