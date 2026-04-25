@@ -1,72 +1,141 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-contract Identity {
-    address public admin;
+import "@openzeppelin/contracts/access/AccessControl.sol";
 
-    // Mappings to track statuses and data
-    mapping(address => bool) public isVerifier;
-    mapping(address => string) public userIdentities; // Stores the hash of the user's documents
-    mapping(address => string) public userStatus;     // Can be: "None", "Pending", "Verified", "Revoked"
+contract IdentityVerifier is AccessControl {
 
-    // Events (These allow your frontend to listen for changes immediately)
-    event UserRegistered(address indexed user, string dataHash);
-    event UserVerified(address indexed user);
-    event UserRevoked(address indexed user);
-    event VerifierAdded(address indexed verifier);
-    event VerifierRemoved(address indexed verifier);
+    //  Roles
+    bytes32 public constant VERIFIER_ROLE = keccak256("VERIFIER_ROLE");
 
-    // Security Modifiers
-    modifier onlyAdmin() {
-        require(msg.sender == admin, "Access Denied: Only admin can perform this action");
-        _;
+    //  Limits
+    uint256 public constant MAX_REQUESTS = 4;
+
+    //  Status
+    enum Status { None, Verified, Revoked }
+
+    //  Identity Structure
+    struct Identity {
+        bytes32 identityHash;
+        Status status;
+        address verifiedBy;
+        uint256 timestamp;
     }
 
-    modifier onlyVerifier() {
-        require(isVerifier[msg.sender] || msg.sender == admin, "Access Denied: Only verifiers can perform this action");
-        _;
-    }
+    //  Storage
+    mapping(address => Identity) private identities;
+    mapping(bytes32 => bool) public usedHashes;
+    mapping(address => uint256) public requestCount;
 
-    // Constructor runs once when the contract is deployed
+    //  Events
+    event IdentityVerified(address indexed user, bytes32 hash, address verifier);
+    event IdentityRevoked(address indexed user, address revokedBy);
+
+    //  Errors
+    error AlreadyVerified();
+    error NotVerified();
+    error InvalidHash();
+    error HashAlreadyUsed();
+    error MaxRequestsReached();
+
     constructor() {
-        admin = msg.sender; // The wallet that deploys this becomes the master Admin
+        _grantRole(DEFAULT_ADMIN_ROLE, msg.sender);
     }
 
-    // --- ADMIN FUNCTIONS ---
-    function addVerifier(address _verifier) public onlyAdmin {
-        isVerifier[_verifier] = true;
-        emit VerifierAdded(_verifier);
+    //  Verifier writes verified identity ON-CHAIN
+    function verifyIdentity(
+        address user,
+        bytes32 identityHash
+    ) external onlyRole(VERIFIER_ROLE) {
+
+        require(user != address(0), "Invalid user");
+
+        if (requestCount[user] >= MAX_REQUESTS) revert MaxRequestsReached();
+        if (identityHash == bytes32(0)) revert InvalidHash();
+        if (usedHashes[identityHash]) revert HashAlreadyUsed();
+
+        //  Release old hash if overwriting
+        if (identities[user].status == Status.Verified) {
+            bytes32 oldHash = identities[user].identityHash;
+            usedHashes[oldHash] = false;
+        }
+
+        //  Increment request count
+        requestCount[user]++;
+
+        identities[user] = Identity({
+            identityHash: identityHash,
+            status: Status.Verified,
+            verifiedBy: msg.sender,
+            timestamp: block.timestamp
+        });
+
+        usedHashes[identityHash] = true;
+
+        emit IdentityVerified(user, identityHash, msg.sender);
     }
 
-    function removeVerifier(address _verifier) public onlyAdmin {
-        isVerifier[_verifier] = false;
-        emit VerifierRemoved(_verifier);
+    //  User revokes their identity
+    function revokeMyIdentity() external {
+        if (identities[msg.sender].status != Status.Verified) {
+            revert NotVerified();
+        }
+
+        bytes32 oldHash = identities[msg.sender].identityHash;
+
+        identities[msg.sender].status = Status.Revoked;
+
+        usedHashes[oldHash] = false;
+
+        //  OPTIONAL (recommended for real-world)
+        // Reset count so user can re-verify again in future
+        requestCount[msg.sender] = 0;
+
+        emit IdentityRevoked(msg.sender, msg.sender);
     }
 
-    // --- USER FUNCTIONS ---
-    function registerIdentity(string memory _dataHash) public {
-        // Ensure they aren't already registered or pending
-        require(bytes(userStatus[msg.sender]).length == 0 || keccak256(bytes(userStatus[msg.sender])) == keccak256(bytes("None")), "Already registered or pending");
-        
-        userIdentities[msg.sender] = _dataHash;
-        userStatus[msg.sender] = "Pending";
-        emit UserRegistered(msg.sender, _dataHash);
+    //  Public verification check
+    function isVerified(address user) public view returns (bool) {
+        return identities[user].status == Status.Verified;
     }
 
-    // --- VERIFIER FUNCTIONS ---
-    function approveUser(address _user) public onlyVerifier {
-        require(keccak256(bytes(userStatus[_user])) == keccak256(bytes("Pending")), "User is not currently pending");
-        userStatus[_user] = "Verified";
-        emit UserVerified(_user);
+    //  Get identity by address
+    function getIdentity(address user)
+        external
+        view
+        returns (
+            bytes32 identityHash,
+            Status status,
+            address verifiedBy,
+            uint256 timestamp
+        )
+    {
+        Identity memory id = identities[user];
+        return (
+            id.identityHash,
+            id.status,
+            id.verifiedBy,
+            id.timestamp
+        );
     }
 
-    function revokeUser(address _user) public onlyVerifier {
-        userStatus[_user] = "Revoked";
-        emit UserRevoked(_user);
-    }
-
-    // --- UTILITY/AUCTION FUNCTION ---
-    function isVerified(address _user) public view returns (bool) {
-        return keccak256(bytes(userStatus[_user])) == keccak256(bytes("Verified"));
+    //  Get caller’s identity
+    function getMyIdentity()
+        external
+        view
+        returns (
+            bytes32 identityHash,
+            Status status,
+            address verifiedBy,
+            uint256 timestamp
+        )
+    {
+        Identity memory id = identities[msg.sender];
+        return (
+            id.identityHash,
+            id.status,
+            id.verifiedBy,
+            id.timestamp
+        );
     }
 }

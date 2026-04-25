@@ -89,3 +89,39 @@
  GET / 200 in 63ms (next.js: 4ms, application-code: 59ms)
  GET /auction 200 in 41ms (next.js: 5ms, application-code: 35ms)
  GET / 200 in 50ms (next.js: 9ms, application-code: 41ms)
+ GET / 200 in 88ms (next.js: 6ms, application-code: 82ms)
+ GET /auction 200 in 50ms (next.js: 7ms, application-code: 43ms)
+ GET / 200 in 44ms (next.js: 5ms, application-code: 39ms)
+ GET / 200 in 108ms (next.js: 7ms, application-code: 101ms)
+✓ Compiled in 22ms
+ GET / 200 in 44ms (next.js: 28ms, application-code: 16ms)
+✓ Compiled in 40ms
+ GET / 200 in 145ms (next.js: 52ms, application-code: 93ms)
+ GET / 200 in 73ms (next.js: 30ms, application-code: 43ms)
+ GET / 200 in 17ms (next.js: 3ms, application-code: 14ms)
+ GET /auction 200 in 160ms (next.js: 98ms, application-code: 62ms)
+✓ Compiled in 63ms
+ GET /auction 500 in 37ms (next.js: 15ms, application-code: 22ms)
+ GET /auction 500 in 13ms (next.js: 5ms, application-code: 7ms)
+ GET /auction 500 in 12ms (next.js: 5ms, application-code: 8ms)
+ GET /auction 500 in 12ms (next.js: 5ms, application-code: 7ms)
+ GET /auction 500 in 12ms (next.js: 5ms, application-code: 7ms)
+ GET /auction 500 in 13ms (next.js: 6ms, application-code: 8ms)
+ GET /auction 500 in 14ms (next.js: 6ms, application-code: 8ms)
+ GET /auction 500 in 43ms (next.js: 28ms, application-code: 14ms)
+✓ Compiled in 42ms
+ GET /auction 500 in 22ms (next.js: 6ms, application-code: 15ms)
+ GET /auction 500 in 14ms (next.js: 6ms, application-code: 9ms)
+ GET /auction 500 in 17ms (next.js: 6ms, application-code: 11ms)
+ GET /auction 500 in 18ms (next.js: 10ms, application-code: 8ms)
+✓ Compiled in 36ms
+ GET /auction 500 in 10ms
+ GET /auction 500 in 13ms (next.js: 4ms, application-code: 9ms)
+✓ Compiled in 23ms
+ GET /auction 200 in 147ms (next.js: 36ms, application-code: 111ms)
+ GET / 200 in 129ms (next.js: 87ms, application-code: 43ms)
+ GET / 200 in 328ms (next.js: 12ms, application-code: 316ms)
+ GET / 200 in 101ms (next.js: 6ms, application-code: 95ms)
+ GET / 200 in 84ms (next.js: 5ms, application-code: 79ms)
+ GET / 200 in 85ms (next.js: 6ms, application-code: 78ms)
+ GET / 200 in 99ms (next.js: 7ms, application-code: 93ms)
