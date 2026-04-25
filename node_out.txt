@@ -576,3 +576,341 @@ Private Key: 0xdf57089febbacf7ba0bc227dafbffa9fc08a93fdc68e1e42411a14efcf23656e
 [32meth_blockNumber (116)[0m
 [32meth_blockNumber (117)[0m
 [32meth_blockNumber (118)[0m
+[32meth_blockNumber (119)[0m
+[32meth_blockNumber (120)[0m
+[32meth_blockNumber (121)[0m
+[32meth_blockNumber (122)[0m
+[32meth_blockNumber (123)[0m
+[32meth_blockNumber (124)[0m
+[32meth_blockNumber (125)[0m
+[32meth_blockNumber (126)[0m
+[32meth_blockNumber (127)[0m
+[32meth_blockNumber (128)[0m
+[32meth_blockNumber (129)[0m
+[32meth_blockNumber (130)[0m
+[32meth_blockNumber (131)[0m
+[32meth_blockNumber (132)[0m
+[32meth_blockNumber (133)[0m
+[32meth_blockNumber (134)[0m
+[32meth_blockNumber (135)[0m
+[32meth_blockNumber (136)[0m
+[32meth_blockNumber (137)[0m
+[32meth_blockNumber (138)[0m
+[32meth_blockNumber (139)[0m
+[32meth_blockNumber (140)[0m
+[32meth_blockNumber (141)[0m
+[32meth_blockNumber (142)[0m
+[32meth_blockNumber (143)[0m
+[32meth_blockNumber (144)[0m
+[32meth_blockNumber (145)[0m
+[32meth_blockNumber (146)[0m
+[32meth_blockNumber (147)[0m
+[32meth_blockNumber (148)[0m
+[32meth_blockNumber (149)[0m
+[32meth_blockNumber (150)[0m
+[32meth_blockNumber (151)[0m
+[32meth_blockNumber (152)[0m
+[32meth_blockNumber (153)[0m
+[32meth_blockNumber (154)[0m
+[32meth_getBalance[0m
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[32meth_blockNumber (4)[0m
+[32meth_blockNumber (5)[0m
+[32meth_blockNumber (6)[0m
+[32meth_blockNumber (7)[0m
+[32meth_blockNumber (8)[0m
+[32meth_blockNumber (9)[0m
+[32meth_blockNumber (10)[0m
+[32meth_blockNumber (11)[0m
+[32meth_getBalance[0m
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[32meth_getBalance[0m
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[32meth_blockNumber (4)[0m
+[32meth_blockNumber (5)[0m
+[32meth_blockNumber (6)[0m
+[32meth_getBalance[0m
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[32meth_call[0m
+  Contract call:       KYCGatedAuction#owner
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0xa513e6e4b8f2a923d98304ec87f64353c4d5c853
+
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_call[0m
+  Contract call:       IdentityVerifier#hasRole
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[32meth_call[0m
+  Contract call:       IdentityVerifier#VERIFIER_ROLE
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+[32meth_blockNumber[0m
+[32meth_estimateGas[0m
+[32meth_getCode[0m
+[32meth_getCode (2)[0m
+[32meth_gasPrice[0m
+[32meth_blockNumber[0m
+[32meth_call[0m
+  Contract call:       IdentityVerifier#supportsInterface
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+[32meth_call[0m
+  Contract call:       IdentityVerifier#supportsInterface
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+[31meth_call[0m
+  Contract call:       IdentityVerifier#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       IdentityVerifier#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       IdentityVerifier#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+  Error: Transaction reverted without a reason
+
+[32meth_blockNumber[0m
+[31meth_call[0m
+  Contract call:       IdentityVerifier#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       IdentityVerifier#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+  Error: Transaction reverted without a reason
+
+[32meth_getTransactionCount[0m
+[32meth_sendRawTransaction[0m
+  Contract call:       IdentityVerifier#grantRole
+  Transaction:         0x246cb964e30551853235a46280f51bb1122dd764458282008006ca143d54506a
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+  Value:               0 ETH
+  Gas used:            52103 of 52103
+  Block #9:            0x6ef50ff7451847c15afd4a052a06f219dbdcb377d7bdf628abf8169806717e81
+
+[31meth_call[0m
+  Contract call:       IdentityVerifier#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       IdentityVerifier#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+  Error: Transaction reverted without a reason
+
+[32meth_getTransactionReceipt[0m
+[32meth_blockNumber[0m
+[31meth_call[0m
+  Contract deployment: <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+
+  TransactionExecutionError: StackOverflow
+
+[32meth_getBlockByNumber[0m
+[32meth_getTransactionReceipt[0m
+[32meth_getBlockByHash[0m
+[32meth_blockNumber[0m
+[32meth_call[0m
+  Contract call:       IdentityVerifier#supportsInterface
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+[32meth_getBalance[0m
+[32meth_call[0m
+  Contract call:       IdentityVerifier#supportsInterface
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+[31meth_call[0m
+  Contract call:       IdentityVerifier#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       IdentityVerifier#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+  Error: Transaction reverted without a reason
+
+[32meth_gasPrice[0m
+[32meth_blockNumber[0m
+[32meth_getBalance[0m
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[32meth_call[0m
+  Contract call:       IdentityVerifier#VERIFIER_ROLE
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+[32meth_call[0m
+  Contract call:       IdentityVerifier#hasRole
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+[32meth_blockNumber[0m
+[32meth_getBalance[0m
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_estimateGas[0m
+[32meth_getCode[0m
+[32meth_getCode (2)[0m
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[31meth_call[0m
+  Contract call:       IdentityVerifier#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       IdentityVerifier#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       IdentityVerifier#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       IdentityVerifier#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       IdentityVerifier#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       IdentityVerifier#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       IdentityVerifier#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       IdentityVerifier#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+  Error: Transaction reverted without a reason
+
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[31meth_call[0m
+  Contract call:       IdentityVerifier#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract call:       IdentityVerifier#<unrecognized-selector>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+  To:                  0x0165878a594ca255338adfa4d48449f69242eb8f
+
+  Error: Transaction reverted without a reason
+
+[31meth_call[0m
+  Contract deployment: <UnrecognizedContract>
+  From:                0xf39fd6e51aad88f6f4ce6ab8827279cfffb92266
+
+  TransactionExecutionError: StackOverflow
+
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[32meth_blockNumber (4)[0m
+[32meth_blockNumber (5)[0m
+[32meth_getBalance[0m
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[32meth_blockNumber (4)[0m
+[32meth_blockNumber (5)[0m
+[32meth_blockNumber (6)[0m
+[32meth_blockNumber (7)[0m
+[32meth_blockNumber (8)[0m
+[32meth_blockNumber (9)[0m
+[32meth_blockNumber (10)[0m
+[32meth_getBalance[0m
+[32meth_blockNumber[0m
+[32meth_blockNumber (2)[0m
+[32meth_blockNumber (3)[0m
+[32meth_blockNumber (4)[0m
+[32meth_blockNumber (5)[0m
+[32meth_blockNumber (6)[0m
+[32meth_blockNumber (7)[0m
+[32meth_blockNumber (8)[0m
+[32meth_blockNumber (9)[0m
+[32meth_blockNumber (10)[0m
+[32meth_blockNumber (11)[0m
+[32meth_blockNumber (12)[0m
+[32meth_blockNumber (13)[0m
+[32meth_blockNumber (14)[0m
+[32meth_blockNumber (15)[0m
+[32meth_blockNumber (16)[0m
+[32meth_blockNumber (17)[0m
+[32meth_blockNumber (18)[0m
+[32meth_blockNumber (19)[0m
+[32meth_blockNumber (20)[0m
+[32meth_blockNumber (21)[0m

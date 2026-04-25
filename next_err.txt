@@ -3759,3 +3759,1100 @@ Import traces:
   79 |       }
   80 |       
   81 |       const resData = await res.json(); (src/app/page.js:86:15)
+⨯ ./src/app/auction/page.js:10:1
+Module not found: Can't resolve '../../../artifacts/contracts/Identity.sol/IdentityVerifier.json'
+  [90m 8 |[0m ...[33mAUCTION_CONTRACT_ADDRESS[0m = [32m"0xa513E6E4b8f2a923D98304ec87F64353C4D5C853"[0m;
+  [90m 9 |[0m ...
+[31m[1m>[0m [90m10 |[0m ... [33mIdentityVerifierJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/Identity.sol/IdentityVerifier....[0m
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m11 |[0m ... [33mKYCGatedAuctionJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuc...[0m
+  [90m12 |[0m ...
+  [90m13 |[0m ...[33mIDENTITY_ABI[0m = [33mIdentityVerifierJSON[0m.abi;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auction/page.js [Client Component Browser]
+    ./src/app/auction/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/auction/page.js [Client Component SSR]
+    ./src/app/auction/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/auction/page.js:10:1
+Module not found: Can't resolve '../../../artifacts/contracts/Identity.sol/IdentityVerifier.json'
+  [90m 8 |[0m ...[33mAUCTION_CONTRACT_ADDRESS[0m = [32m"0xa513E6E4b8f2a923D98304ec87F64353C4D5C853"[0m;
+  [90m 9 |[0m ...
+[31m[1m>[0m [90m10 |[0m ... [33mIdentityVerifierJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/Identity.sol/IdentityVerifier....[0m
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m11 |[0m ... [33mKYCGatedAuctionJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuc...[0m
+  [90m12 |[0m ...
+  [90m13 |[0m ...[33mIDENTITY_ABI[0m = [33mIdentityVerifierJSON[0m.abi;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auction/page.js [Client Component Browser]
+    ./src/app/auction/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/auction/page.js [Client Component SSR]
+    ./src/app/auction/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/auction/page.js:10:1
+Module not found: Can't resolve '../../../artifacts/contracts/Identity.sol/IdentityVerifier.json'
+  [90m 8 |[0m ...[33mAUCTION_CONTRACT_ADDRESS[0m = [32m"0xa513E6E4b8f2a923D98304ec87F64353C4D5C853"[0m;
+  [90m 9 |[0m ...
+[31m[1m>[0m [90m10 |[0m ... [33mIdentityVerifierJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/Identity.sol/IdentityVerifier....[0m
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m11 |[0m ... [33mKYCGatedAuctionJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuc...[0m
+  [90m12 |[0m ...
+  [90m13 |[0m ...[33mIDENTITY_ABI[0m = [33mIdentityVerifierJSON[0m.abi;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auction/page.js [Client Component Browser]
+    ./src/app/auction/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/auction/page.js [Client Component SSR]
+    ./src/app/auction/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/auction/page.js:10:1
+Module not found: Can't resolve '../../../artifacts/contracts/Identity.sol/IdentityVerifier.json'
+  [90m 8 |[0m ...[33mAUCTION_CONTRACT_ADDRESS[0m = [32m"0xa513E6E4b8f2a923D98304ec87F64353C4D5C853"[0m;
+  [90m 9 |[0m ...
+[31m[1m>[0m [90m10 |[0m ... [33mIdentityVerifierJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/Identity.sol/IdentityVerifier....[0m
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m11 |[0m ... [33mKYCGatedAuctionJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuc...[0m
+  [90m12 |[0m ...
+  [90m13 |[0m ...[33mIDENTITY_ABI[0m = [33mIdentityVerifierJSON[0m.abi;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auction/page.js [Client Component Browser]
+    ./src/app/auction/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/auction/page.js [Client Component SSR]
+    ./src/app/auction/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/auction/page.js:11:1
+Module not found: Can't resolve '../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuction.json'
+  [90m 9 |[0m ...
+  [90m10 |[0m ...[33mentityVerifierJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/Identity.sol/IdentityVerifier.json'[0m;
+[31m[1m>[0m [90m11 |[0m ...[33mCGatedAuctionJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuctio...[0m
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m ...
+  [90m13 |[0m ...[33mNTITY_ABI[0m = [33mIdentityVerifierJSON[0m.abi;
+  [90m14 |[0m ...[33mTION_ABI[0m = [33mKYCGatedAuctionJSON[0m.abi;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auction/page.js [Client Component Browser]
+    ./src/app/auction/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/auction/page.js [Client Component SSR]
+    ./src/app/auction/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/auction/page.js:11:1
+Module not found: Can't resolve '../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuction.json'
+  [90m 9 |[0m ...
+  [90m10 |[0m ...[33mentityVerifierJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/Identity.sol/IdentityVerifier.json'[0m;
+[31m[1m>[0m [90m11 |[0m ...[33mCGatedAuctionJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuctio...[0m
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m ...
+  [90m13 |[0m ...[33mNTITY_ABI[0m = [33mIdentityVerifierJSON[0m.abi;
+  [90m14 |[0m ...[33mTION_ABI[0m = [33mKYCGatedAuctionJSON[0m.abi;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auction/page.js [Client Component Browser]
+    ./src/app/auction/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/auction/page.js [Client Component SSR]
+    ./src/app/auction/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/auction/page.js:11:1
+Module not found: Can't resolve '../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuction.json'
+  [90m 9 |[0m ...
+  [90m10 |[0m ...[33mentityVerifierJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/Identity.sol/IdentityVerifier.json'[0m;
+[31m[1m>[0m [90m11 |[0m ...[33mCGatedAuctionJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuctio...[0m
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m ...
+  [90m13 |[0m ...[33mNTITY_ABI[0m = [33mIdentityVerifierJSON[0m.abi;
+  [90m14 |[0m ...[33mTION_ABI[0m = [33mKYCGatedAuctionJSON[0m.abi;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auction/page.js [Client Component Browser]
+    ./src/app/auction/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/auction/page.js [Client Component SSR]
+    ./src/app/auction/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/auction/page.js:11:1
+Module not found: Can't resolve '../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuction.json'
+  [90m 9 |[0m ...
+  [90m10 |[0m ...[33mentityVerifierJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/Identity.sol/IdentityVerifier.json'[0m;
+[31m[1m>[0m [90m11 |[0m ...[33mCGatedAuctionJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuctio...[0m
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m12 |[0m ...
+  [90m13 |[0m ...[33mNTITY_ABI[0m = [33mIdentityVerifierJSON[0m.abi;
+  [90m14 |[0m ...[33mTION_ABI[0m = [33mKYCGatedAuctionJSON[0m.abi;
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auction/page.js [Client Component Browser]
+    ./src/app/auction/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/auction/page.js [Client Component SSR]
+    ./src/app/auction/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.js:9:1
+Module not found: Can't resolve '../../artifacts/contracts/Identity.sol/IdentityVerifier.json'
+  [90m 7 |[0m ...[90mplace with actual IdentityVerifier address[0m
+  [90m 8 |[0m ... [33mIDENTITY_CONTRACT_ADDRESS[0m = [32m"0x0165878A594ca255338adfa4d48449f69242Eb8F"[0m;
+[31m[1m>[0m [90m 9 |[0m ...[36mt[0m [33mIdentityVerifierJSON[0m [36mfrom[0m [32m'../../artifacts/contracts/Identity.sol/IdentityVerifier.js...[0m
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m10 |[0m ... [33mIDENTITY_ABI[0m = [33mIdentityVerifierJSON[0m.abi;
+  [90m11 |[0m ...
+  [90m12 |[0m ...[36mt[0m [36mdefault[0m [36mfunction[0m [33mUserPage[0m() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.js:9:1
+Module not found: Can't resolve '../../artifacts/contracts/Identity.sol/IdentityVerifier.json'
+  [90m 7 |[0m ...[90mplace with actual IdentityVerifier address[0m
+  [90m 8 |[0m ... [33mIDENTITY_CONTRACT_ADDRESS[0m = [32m"0x0165878A594ca255338adfa4d48449f69242Eb8F"[0m;
+[31m[1m>[0m [90m 9 |[0m ...[36mt[0m [33mIdentityVerifierJSON[0m [36mfrom[0m [32m'../../artifacts/contracts/Identity.sol/IdentityVerifier.js...[0m
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m10 |[0m ... [33mIDENTITY_ABI[0m = [33mIdentityVerifierJSON[0m.abi;
+  [90m11 |[0m ...
+  [90m12 |[0m ...[36mt[0m [36mdefault[0m [36mfunction[0m [33mUserPage[0m() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.js:9:1
+Module not found: Can't resolve '../../artifacts/contracts/Identity.sol/IdentityVerifier.json'
+  [90m 7 |[0m ...[90mplace with actual IdentityVerifier address[0m
+  [90m 8 |[0m ... [33mIDENTITY_CONTRACT_ADDRESS[0m = [32m"0x0165878A594ca255338adfa4d48449f69242Eb8F"[0m;
+[31m[1m>[0m [90m 9 |[0m ...[36mt[0m [33mIdentityVerifierJSON[0m [36mfrom[0m [32m'../../artifacts/contracts/Identity.sol/IdentityVerifier.js...[0m
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m10 |[0m ... [33mIDENTITY_ABI[0m = [33mIdentityVerifierJSON[0m.abi;
+  [90m11 |[0m ...
+  [90m12 |[0m ...[36mt[0m [36mdefault[0m [36mfunction[0m [33mUserPage[0m() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.js:9:1
+Module not found: Can't resolve '../../artifacts/contracts/Identity.sol/IdentityVerifier.json'
+  [90m 7 |[0m ...[90mplace with actual IdentityVerifier address[0m
+  [90m 8 |[0m ... [33mIDENTITY_CONTRACT_ADDRESS[0m = [32m"0x0165878A594ca255338adfa4d48449f69242Eb8F"[0m;
+[31m[1m>[0m [90m 9 |[0m ...[36mt[0m [33mIdentityVerifierJSON[0m [36mfrom[0m [32m'../../artifacts/contracts/Identity.sol/IdentityVerifier.js...[0m
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m10 |[0m ... [33mIDENTITY_ABI[0m = [33mIdentityVerifierJSON[0m.abi;
+  [90m11 |[0m ...
+  [90m12 |[0m ...[36mt[0m [36mdefault[0m [36mfunction[0m [33mUserPage[0m() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/admin/page.js:8:1
+Module not found: Can't resolve '../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuction.json'
+  [90m 6 |[0m ...
+  [90m 7 |[0m ...[33mTION_CONTRACT_ADDRESS[0m = [32m"0xa513E6E4b8f2a923D98304ec87F64353C4D5C853"[0m;
+[31m[1m>[0m [90m 8 |[0m ...[33mCGatedAuctionJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuctio...[0m
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m ...[33mTION_ABI[0m = [33mKYCGatedAuctionJSON[0m.abi;
+  [90m10 |[0m ...
+  [90m11 |[0m ...[36mfault[0m [36mfunction[0m [33mAdminPage[0m() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/admin/page.js [Client Component Browser]
+    ./src/app/admin/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/admin/page.js [Client Component SSR]
+    ./src/app/admin/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/admin/page.js:8:1
+Module not found: Can't resolve '../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuction.json'
+  [90m 6 |[0m ...
+  [90m 7 |[0m ...[33mTION_CONTRACT_ADDRESS[0m = [32m"0xa513E6E4b8f2a923D98304ec87F64353C4D5C853"[0m;
+[31m[1m>[0m [90m 8 |[0m ...[33mCGatedAuctionJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuctio...[0m
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m ...[33mTION_ABI[0m = [33mKYCGatedAuctionJSON[0m.abi;
+  [90m10 |[0m ...
+  [90m11 |[0m ...[36mfault[0m [36mfunction[0m [33mAdminPage[0m() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/admin/page.js [Client Component Browser]
+    ./src/app/admin/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/admin/page.js [Client Component SSR]
+    ./src/app/admin/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/admin/page.js:8:1
+Module not found: Can't resolve '../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuction.json'
+  [90m 6 |[0m ...
+  [90m 7 |[0m ...[33mTION_CONTRACT_ADDRESS[0m = [32m"0xa513E6E4b8f2a923D98304ec87F64353C4D5C853"[0m;
+[31m[1m>[0m [90m 8 |[0m ...[33mCGatedAuctionJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuctio...[0m
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m ...[33mTION_ABI[0m = [33mKYCGatedAuctionJSON[0m.abi;
+  [90m10 |[0m ...
+  [90m11 |[0m ...[36mfault[0m [36mfunction[0m [33mAdminPage[0m() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/admin/page.js [Client Component Browser]
+    ./src/app/admin/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/admin/page.js [Client Component SSR]
+    ./src/app/admin/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/admin/page.js:8:1
+Module not found: Can't resolve '../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuction.json'
+  [90m 6 |[0m ...
+  [90m 7 |[0m ...[33mTION_CONTRACT_ADDRESS[0m = [32m"0xa513E6E4b8f2a923D98304ec87F64353C4D5C853"[0m;
+[31m[1m>[0m [90m 8 |[0m ...[33mCGatedAuctionJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuctio...[0m
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m ...[33mTION_ABI[0m = [33mKYCGatedAuctionJSON[0m.abi;
+  [90m10 |[0m ...
+  [90m11 |[0m ...[36mfault[0m [36mfunction[0m [33mAdminPage[0m() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/admin/page.js [Client Component Browser]
+    ./src/app/admin/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/admin/page.js [Client Component SSR]
+    ./src/app/admin/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/verifier/page.js:8:1
+Module not found: Can't resolve '../../../artifacts/contracts/Identity.sol/IdentityVerifier.json'
+  [90m 6 |[0m ...
+  [90m 7 |[0m ...[33mIDENTITY_CONTRACT_ADDRESS[0m = [32m"0x0165878A594ca255338adfa4d48449f69242Eb8F"[0m;
+[31m[1m>[0m [90m 8 |[0m ... [33mIdentityVerifierJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/Identity.sol/IdentityVerifier....[0m
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m ...[33mIDENTITY_ABI[0m = [33mIdentityVerifierJSON[0m.abi;
+  [90m10 |[0m ...
+  [90m11 |[0m ... [36mdefault[0m [36mfunction[0m [33mVerifierPage[0m() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/verifier/page.js [Client Component Browser]
+    ./src/app/verifier/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/verifier/page.js [Client Component SSR]
+    ./src/app/verifier/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/verifier/page.js:8:1
+Module not found: Can't resolve '../../../artifacts/contracts/Identity.sol/IdentityVerifier.json'
+  [90m 6 |[0m ...
+  [90m 7 |[0m ...[33mIDENTITY_CONTRACT_ADDRESS[0m = [32m"0x0165878A594ca255338adfa4d48449f69242Eb8F"[0m;
+[31m[1m>[0m [90m 8 |[0m ... [33mIdentityVerifierJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/Identity.sol/IdentityVerifier....[0m
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m ...[33mIDENTITY_ABI[0m = [33mIdentityVerifierJSON[0m.abi;
+  [90m10 |[0m ...
+  [90m11 |[0m ... [36mdefault[0m [36mfunction[0m [33mVerifierPage[0m() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/verifier/page.js [Client Component Browser]
+    ./src/app/verifier/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/verifier/page.js [Client Component SSR]
+    ./src/app/verifier/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/verifier/page.js:8:1
+Module not found: Can't resolve '../../../artifacts/contracts/Identity.sol/IdentityVerifier.json'
+  [90m 6 |[0m ...
+  [90m 7 |[0m ...[33mIDENTITY_CONTRACT_ADDRESS[0m = [32m"0x0165878A594ca255338adfa4d48449f69242Eb8F"[0m;
+[31m[1m>[0m [90m 8 |[0m ... [33mIdentityVerifierJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/Identity.sol/IdentityVerifier....[0m
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m ...[33mIDENTITY_ABI[0m = [33mIdentityVerifierJSON[0m.abi;
+  [90m10 |[0m ...
+  [90m11 |[0m ... [36mdefault[0m [36mfunction[0m [33mVerifierPage[0m() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/verifier/page.js [Client Component Browser]
+    ./src/app/verifier/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/verifier/page.js [Client Component SSR]
+    ./src/app/verifier/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/verifier/page.js:8:1
+Module not found: Can't resolve '../../../artifacts/contracts/Identity.sol/IdentityVerifier.json'
+  [90m 6 |[0m ...
+  [90m 7 |[0m ...[33mIDENTITY_CONTRACT_ADDRESS[0m = [32m"0x0165878A594ca255338adfa4d48449f69242Eb8F"[0m;
+[31m[1m>[0m [90m 8 |[0m ... [33mIdentityVerifierJSON[0m [36mfrom[0m [32m'../../../artifacts/contracts/Identity.sol/IdentityVerifier....[0m
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m 9 |[0m ...[33mIDENTITY_ABI[0m = [33mIdentityVerifierJSON[0m.abi;
+  [90m10 |[0m ...
+  [90m11 |[0m ... [36mdefault[0m [36mfunction[0m [33mVerifierPage[0m() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/verifier/page.js [Client Component Browser]
+    ./src/app/verifier/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/verifier/page.js [Client Component SSR]
+    ./src/app/verifier/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+⨯ ./src/app/page.js:9:1
+Module not found: Can't resolve '../../artifacts/contracts/Identity.sol/IdentityVerifier.json'
+  [90m 7 |[0m ...[90mplace with actual IdentityVerifier address[0m
+  [90m 8 |[0m ... [33mIDENTITY_CONTRACT_ADDRESS[0m = [32m"0x0165878A594ca255338adfa4d48449f69242Eb8F"[0m;
+[31m[1m>[0m [90m 9 |[0m ...[36mt[0m [33mIdentityVerifierJSON[0m [36mfrom[0m [32m'../../artifacts/contracts/Identity.sol/IdentityVerifier.js...[0m
+  [90m   |[0m    [31m[1m^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^[0m
+  [90m10 |[0m ... [33mIDENTITY_ABI[0m = [33mIdentityVerifierJSON[0m.abi;
+  [90m11 |[0m ...
+  [90m12 |[0m ...[36mt[0m [36mdefault[0m [36mfunction[0m [33mUserPage[0m() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+[browser] Uncaught Error: ./src/app/page.js:9:1
+Module not found: Can't resolve '../../artifacts/contracts/Identity.sol/IdentityVerifier.json'
+   7 | ...place with actual IdentityVerifier address
+   8 | ... IDENTITY_CONTRACT_ADDRESS = "0x0165878A594ca255338adfa4d48449f69242Eb8F";
+>  9 | ...t IdentityVerifierJSON from '../../artifacts/contracts/Identity.sol/IdentityVerifier.js...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | ... IDENTITY_ABI = IdentityVerifierJSON.abi;
+  11 | ...
+  12 | ...t default function UserPage() {
+
+
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found
+
+
+    at <unknown> (Error: ./src/app/page.js:9:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+    at <unknown> (Error: (./src/app/page.js:9:1)
+    at <unknown> (https://nextjs.org/docs/messages/module-not-found)
+[browser] ./src/app/page.js:9:1
+Module not found: Can't resolve '../../artifacts/contracts/Identity.sol/IdentityVerifier.json'
+   7 | ...place with actual IdentityVerifier address
+   8 | ... IDENTITY_CONTRACT_ADDRESS = "0x0165878A594ca255338adfa4d48449f69242Eb8F";
+>  9 | ...t IdentityVerifierJSON from '../../artifacts/contracts/Identity.sol/IdentityVerifier.js...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | ... IDENTITY_ABI = IdentityVerifierJSON.abi;
+  11 | ...
+  12 | ...t default function UserPage() {
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/auction/page.js:10:1
+Module not found: Can't resolve '../../../artifacts/contracts/Identity.sol/IdentityVerifier.json'
+   8 | ...AUCTION_CONTRACT_ADDRESS = "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853";
+   9 | ...
+> 10 | ... IdentityVerifierJSON from '../../../artifacts/contracts/Identity.sol/IdentityVerifier....
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | ... KYCGatedAuctionJSON from '../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuc...
+  12 | ...
+  13 | ...IDENTITY_ABI = IdentityVerifierJSON.abi;
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auction/page.js [Client Component Browser]
+    ./src/app/auction/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/auction/page.js [Client Component SSR]
+    ./src/app/auction/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/auction/page.js:11:1
+Module not found: Can't resolve '../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuction.json'
+   9 | ...
+  10 | ...entityVerifierJSON from '../../../artifacts/contracts/Identity.sol/IdentityVerifier.json';
+> 11 | ...CGatedAuctionJSON from '../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuctio...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 | ...
+  13 | ...NTITY_ABI = IdentityVerifierJSON.abi;
+  14 | ...TION_ABI = KYCGatedAuctionJSON.abi;
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auction/page.js [Client Component Browser]
+    ./src/app/auction/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/auction/page.js [Client Component SSR]
+    ./src/app/auction/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/verifier/page.js:8:1
+Module not found: Can't resolve '../../../artifacts/contracts/Identity.sol/IdentityVerifier.json'
+   6 | ...
+   7 | ...IDENTITY_CONTRACT_ADDRESS = "0x0165878A594ca255338adfa4d48449f69242Eb8F";
+>  8 | ... IdentityVerifierJSON from '../../../artifacts/contracts/Identity.sol/IdentityVerifier....
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | ...IDENTITY_ABI = IdentityVerifierJSON.abi;
+  10 | ...
+  11 | ... default function VerifierPage() {
+
+Import traces:
+  Client Component Browser:
+    ./src/app/verifier/page.js [Client Component Browser]
+    ./src/app/verifier/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/verifier/page.js [Client Component SSR]
+    ./src/app/verifier/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/admin/page.js:8:1
+Module not found: Can't resolve '../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuction.json'
+   6 | ...
+   7 | ...TION_CONTRACT_ADDRESS = "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853";
+>  8 | ...CGatedAuctionJSON from '../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuctio...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | ...TION_ABI = KYCGatedAuctionJSON.abi;
+  10 | ...
+  11 | ...fault function AdminPage() {
+
+Import traces:
+  Client Component Browser:
+    ./src/app/admin/page.js [Client Component Browser]
+    ./src/app/admin/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/admin/page.js [Client Component SSR]
+    ./src/app/admin/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/page.js:9:1
+Module not found: Can't resolve '../../artifacts/contracts/Identity.sol/IdentityVerifier.json'
+   7 | ...place with actual IdentityVerifier address
+   8 | ... IDENTITY_CONTRACT_ADDRESS = "0x0165878A594ca255338adfa4d48449f69242Eb8F";
+>  9 | ...t IdentityVerifierJSON from '../../artifacts/contracts/Identity.sol/IdentityVerifier.js...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  10 | ... IDENTITY_ABI = IdentityVerifierJSON.abi;
+  11 | ...
+  12 | ...t default function UserPage() {
+
+Import traces:
+  Client Component Browser:
+    ./src/app/page.js [Client Component Browser]
+    ./src/app/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/page.js [Client Component SSR]
+    ./src/app/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/auction/page.js:10:1
+Module not found: Can't resolve '../../../artifacts/contracts/Identity.sol/IdentityVerifier.json'
+   8 | ...AUCTION_CONTRACT_ADDRESS = "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853";
+   9 | ...
+> 10 | ... IdentityVerifierJSON from '../../../artifacts/contracts/Identity.sol/IdentityVerifier....
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  11 | ... KYCGatedAuctionJSON from '../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuc...
+  12 | ...
+  13 | ...IDENTITY_ABI = IdentityVerifierJSON.abi;
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auction/page.js [Client Component Browser]
+    ./src/app/auction/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/auction/page.js [Client Component SSR]
+    ./src/app/auction/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/auction/page.js:11:1
+Module not found: Can't resolve '../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuction.json'
+   9 | ...
+  10 | ...entityVerifierJSON from '../../../artifacts/contracts/Identity.sol/IdentityVerifier.json';
+> 11 | ...CGatedAuctionJSON from '../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuctio...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  12 | ...
+  13 | ...NTITY_ABI = IdentityVerifierJSON.abi;
+  14 | ...TION_ABI = KYCGatedAuctionJSON.abi;
+
+Import traces:
+  Client Component Browser:
+    ./src/app/auction/page.js [Client Component Browser]
+    ./src/app/auction/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/auction/page.js [Client Component SSR]
+    ./src/app/auction/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/verifier/page.js:8:1
+Module not found: Can't resolve '../../../artifacts/contracts/Identity.sol/IdentityVerifier.json'
+   6 | ...
+   7 | ...IDENTITY_CONTRACT_ADDRESS = "0x0165878A594ca255338adfa4d48449f69242Eb8F";
+>  8 | ... IdentityVerifierJSON from '../../../artifacts/contracts/Identity.sol/IdentityVerifier....
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | ...IDENTITY_ABI = IdentityVerifierJSON.abi;
+  10 | ...
+  11 | ... default function VerifierPage() {
+
+Import traces:
+  Client Component Browser:
+    ./src/app/verifier/page.js [Client Component Browser]
+    ./src/app/verifier/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/verifier/page.js [Client Component SSR]
+    ./src/app/verifier/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] ./src/app/admin/page.js:8:1
+Module not found: Can't resolve '../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuction.json'
+   6 | ...
+   7 | ...TION_CONTRACT_ADDRESS = "0xa513E6E4b8f2a923D98304ec87F64353C4D5C853";
+>  8 | ...CGatedAuctionJSON from '../../../artifacts/contracts/KYCGatedAuction.sol/KYCGatedAuctio...
+     |    ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+   9 | ...TION_ABI = KYCGatedAuctionJSON.abi;
+  10 | ...
+  11 | ...fault function AdminPage() {
+
+Import traces:
+  Client Component Browser:
+    ./src/app/admin/page.js [Client Component Browser]
+    ./src/app/admin/page.js [Server Component]
+
+  Client Component SSR:
+    ./src/app/admin/page.js [Client Component SSR]
+    ./src/app/admin/page.js [Server Component]
+
+https://nextjs.org/docs/messages/module-not-found 
+[browser] Error: user rejected action (action="sendTransaction", reason="rejected", info={ "error": { "code": 4001, "data": { "cause": null, "location": "confirmation" }, "message": "ethers-user-denied: MetaMask Tx Signature: User denied transaction signature." }, "payload": { "id": 6, "jsonrpc": "2.0", "method": "eth_sendTransaction", "params": [ { "data": "0x5581f3720000000000000000000000006ce3eb9d3ae528e8a7df3c8b4c9ec2b083182ba84bfe3f685ae62b9941c9d3b204b8c109ecc9b7a8892b720d9b1600713546d24b", "from": "0x1b1c447994279393a53916c95f99a39d391068e0", "gas": "0x220e6", "to": "0x0165878a594ca255338adfa4d48449f69242eb8f" } ] } }, code=ACTION_REJECTED, version=6.16.0) (src/app/verifier/page.js:101:15)
+[browser] Error checking verification: Error: could not decode result data (value="0x", info={ "method": "getIdentity", "signature": "getIdentity(address)" }, code=BAD_DATA, version=6.16.0)
+    at async checkVerification (src/app/page.js:39:24)
+    at async connectWallet (src/app/page.js:26:9)
+  37 |       const provider = new ethers.BrowserProvider(window.ethereum);
+  38 |       const contract = new ethers.Contract(IDENTITY_CONTRACT_ADDRESS, IDENTITY_ABI, provid...
+> 39 |       const identity = await contract.getIdentity(address);
+     |                        ^
+  40 |       const statusNames = ["None", "Verified", "Revoked"];
+  41 |       const statusStr = statusNames[Number(identity.status)];
+  42 |        (src/app/page.js:47:15)
+[browser] Error checking verification: Error: could not decode result data (value="0x", info={ "method": "getIdentity", "signature": "getIdentity(address)" }, code=BAD_DATA, version=6.16.0)
+    at async checkVerification (src/app/page.js:39:24)
+  37 |       const provider = new ethers.BrowserProvider(window.ethereum);
+  38 |       const contract = new ethers.Contract(IDENTITY_CONTRACT_ADDRESS, IDENTITY_ABI, provid...
+> 39 |       const identity = await contract.getIdentity(address);
+     |                        ^
+  40 |       const statusNames = ["None", "Verified", "Revoked"];
+  41 |       const statusStr = statusNames[Number(identity.status)];
+  42 |        (src/app/page.js:47:15)
+[browser] Error checking verification: Error: could not decode result data (value="0x", info={ "method": "getIdentity", "signature": "getIdentity(address)" }, code=BAD_DATA, version=6.16.0)
+    at async checkVerification (src/app/page.js:39:24)
+    at async connectWallet (src/app/page.js:26:9)
+  37 |       const provider = new ethers.BrowserProvider(window.ethereum);
+  38 |       const contract = new ethers.Contract(IDENTITY_CONTRACT_ADDRESS, IDENTITY_ABI, provid...
+> 39 |       const identity = await contract.getIdentity(address);
+     |                        ^
+  40 |       const statusNames = ["None", "Verified", "Revoked"];
+  41 |       const statusStr = statusNames[Number(identity.status)];
+  42 |        (src/app/page.js:47:15)
+[browser] Error checking verification: Error: could not decode result data (value="0x", info={ "method": "getIdentity", "signature": "getIdentity(address)" }, code=BAD_DATA, version=6.16.0)
+    at async checkVerification (src/app/page.js:39:24)
+  37 |       const provider = new ethers.BrowserProvider(window.ethereum);
+  38 |       const contract = new ethers.Contract(IDENTITY_CONTRACT_ADDRESS, IDENTITY_ABI, provid...
+> 39 |       const identity = await contract.getIdentity(address);
+     |                        ^
+  40 |       const statusNames = ["None", "Verified", "Revoked"];
+  41 |       const statusStr = statusNames[Number(identity.status)];
+  42 |        (src/app/page.js:47:15)
+[browser] Error checking verification: Error: could not decode result data (value="0x", info={ "method": "getIdentity", "signature": "getIdentity(address)" }, code=BAD_DATA, version=6.16.0)
+    at async checkVerification (src/app/page.js:39:24)
+    at async connectWallet (src/app/page.js:26:9)
+  37 |       const provider = new ethers.BrowserProvider(window.ethereum);
+  38 |       const contract = new ethers.Contract(IDENTITY_CONTRACT_ADDRESS, IDENTITY_ABI, provid...
+> 39 |       const identity = await contract.getIdentity(address);
+     |                        ^
+  40 |       const statusNames = ["None", "Verified", "Revoked"];
+  41 |       const statusStr = statusNames[Number(identity.status)];
+  42 |        (src/app/page.js:47:15)
+[browser] Error: execution reverted (unknown custom error) (action="estimateGas", data="0xe2517d3f00000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c80000000000000000000000000000000000000000000000000000000000000000", reason=null, transaction={ "data": "0x2f2ff15d0ce23c3e399818cfee81a7ab0880f714e53d7672b08df0fa62f2843416e1ea0900000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c8", "from": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8", "to": "0x5FbDB2315678afecb367f032d93F642f64180aa3" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0) (src/app/admin/page.js:78:15)
+[browser] Error: execution reverted (unknown custom error) (action="estimateGas", data="0xe2517d3f00000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c80000000000000000000000000000000000000000000000000000000000000000", reason=null, transaction={ "data": "0x2f2ff15d0ce23c3e399818cfee81a7ab0880f714e53d7672b08df0fa62f2843416e1ea0900000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c8", "from": "0x70997970C51812dc3A010C7d01b50e0d17dc79C8", "to": "0x5FbDB2315678afecb367f032d93F642f64180aa3" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0) (src/app/admin/page.js:78:15)
+[browser] Error: execution reverted (unknown custom error) (action="estimateGas", data="0xe2517d3f00000000000000000000000071bb9d852f0f290af4a40cbe05f5160f9ee7dd710000000000000000000000000000000000000000000000000000000000000000", reason=null, transaction={ "data": "0x2f2ff15d0ce23c3e399818cfee81a7ab0880f714e53d7672b08df0fa62f2843416e1ea0900000000000000000000000070997970c51812dc3a010c7d01b50e0d17dc79c8", "from": "0x71bB9D852f0f290af4A40CbE05F5160F9ee7DD71", "to": "0x5FbDB2315678afecb367f032d93F642f64180aa3" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0) (src/app/admin/page.js:78:15)
+[browser] Error: user rejected action (action="sendTransaction", reason="rejected", info={ "error": { "code": 4001, "data": { "cause": null, "location": "confirmation" }, "message": "ethers-user-denied: MetaMask Tx Signature: User denied transaction signature." }, "payload": { "id": 6, "jsonrpc": "2.0", "method": "eth_sendTransaction", "params": [ { "data": "0x5581f3720000000000000000000000003c44cdddb6a900fa2b585dd299e03d12fa4293bc917309cfabdb9487e7517edf149c51bae045075dbda8a86f9cd05189d46747a9", "from": "0x761acc86e27376b11a04d1475ec509ba9c46b2c8", "gas": "0x220e6", "to": "0x5fbdb2315678afecb367f032d93f642f64180aa3" } ] } }, code=ACTION_REJECTED, version=6.16.0) (src/app/verifier/page.js:101:15)
+[browser] Error: execution reverted (unknown custom error) (action="estimateGas", data="0xe2517d3f00000000000000000000000071bb9d852f0f290af4a40cbe05f5160f9ee7dd710000000000000000000000000000000000000000000000000000000000000000", reason=null, transaction={ "data": "0x2f2ff15d0ce23c3e399818cfee81a7ab0880f714e53d7672b08df0fa62f2843416e1ea0900000000000000000000000071bb9d852f0f290af4a40cbe05f5160f9ee7dd71", "from": "0x71bB9D852f0f290af4A40CbE05F5160F9ee7DD71", "to": "0x5FbDB2315678afecb367f032d93F642f64180aa3" }, invocation=null, revert=null, code=CALL_EXCEPTION, version=6.16.0) (src/app/admin/page.js:78:15)
+[browser] Uncaught ReferenceError: ShieldCheck is not defined
+    at VerifierPage (src/app/verifier/page.js:151:18)
+  149 |             <CardContent className="p-12 flex flex-col items-center text-center">
+  150 |               <div className="w-16 h-16 bg-red-100 dark:bg-red-900/50 rounded-full flex i...
+> 151 |                 <ShieldCheck className="w-8 h-8 text-red-600 dark:text-red-400" />
+      |                  ^
+  152 |               </div>
+  153 |               <h2 className="text-xl font-bold text-red-800 dark:text-red-400 mb-2">Verif...
+  154 |               <p className="text-red-600/80 dark:text-red-300/80">
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] Uncaught ReferenceError: Badge is not defined
+    at AdminPage (src/app/admin/page.js:179:135)
+  177 | ...
+  178 | ...nts-none' : ''}`}>
+> 179 | ...50 z-10 flex items-center justify-center"><Badge variant="danger">Not Admin</Badge></d...
+      |                                               ^
+  180 | ...
+  181 | ...
+  182 | ...
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] Error: {"reason":"INVALID_CREDENTIALS","details":"token signature is invalid: signature is invalid"}
+    at uploadToIPFS (src/app/page.js:133:15)
+  131 |       if (!res.ok) {
+  132 |         const errorData = await res.json();
+> 133 |         throw new Error(errorData.error ? JSON.stringify(errorData.error) : res.statusText);
+      |               ^
+  134 |       }
+  135 |       
+  136 |       const resData = await res.json(); (src/app/page.js:152:15)
+[browser] Error: {"reason":"INVALID_CREDENTIALS","details":"token signature is invalid: signature is invalid"}
+    at uploadToIPFS (src/app/page.js:133:15)
+  131 |       if (!res.ok) {
+  132 |         const errorData = await res.json();
+> 133 |         throw new Error(errorData.error ? JSON.stringify(errorData.error) : res.statusText);
+      |               ^
+  134 |       }
+  135 |       
+  136 |       const resData = await res.json(); (src/app/page.js:152:15)
+[browser] Error: {"reason":"INVALID_CREDENTIALS","details":"token signature is invalid: signature is invalid"}
+    at uploadToIPFS (src/app/page.js:133:15)
+  131 |       if (!res.ok) {
+  132 |         const errorData = await res.json();
+> 133 |         throw new Error(errorData.error ? JSON.stringify(errorData.error) : res.statusText);
+      |               ^
+  134 |       }
+  135 |       
+  136 |       const resData = await res.json(); (src/app/page.js:152:15)
+[browser] Error checking verification: Error: could not decode result data (value="0x", info={ "method": "DEFAULT_ADMIN_ROLE", "signature": "DEFAULT_ADMIN_ROLE()" }, code=BAD_DATA, version=6.16.0)
+    at async checkRolesAndStatus (src/app/page.js:49:34)
+  47 |       
+  48 |       // Check Role
+> 49 |       const DEFAULT_ADMIN_ROLE = await contract.DEFAULT_ADMIN_ROLE();
+     |                                  ^
+  50 |       const VERIFIER_ROLE = await contract.VERIFIER_ROLE();
+  51 |       if (await contract.hasRole(DEFAULT_ADMIN_ROLE, address)) setRole("Admin");
+  52 |       else if (await contract.hasRole(VERIFIER_ROLE, address)) setRole("Verifier"); (src/app/page.js:83:15)
+[browser] Error checking verification: Error: could not decode result data (value="0x", info={ "method": "DEFAULT_ADMIN_ROLE", "signature": "DEFAULT_ADMIN_ROLE()" }, code=BAD_DATA, version=6.16.0)
+    at async checkRolesAndStatus (src/app/page.js:49:34)
+  47 |       
+  48 |       // Check Role
+> 49 |       const DEFAULT_ADMIN_ROLE = await contract.DEFAULT_ADMIN_ROLE();
+     |                                  ^
+  50 |       const VERIFIER_ROLE = await contract.VERIFIER_ROLE();
+  51 |       if (await contract.hasRole(DEFAULT_ADMIN_ROLE, address)) setRole("Admin");
+  52 |       else if (await contract.hasRole(VERIFIER_ROLE, address)) setRole("Verifier"); (src/app/page.js:83:15)
+[browser] Error checking verification: Error: could not decode result data (value="0x", info={ "method": "DEFAULT_ADMIN_ROLE", "signature": "DEFAULT_ADMIN_ROLE()" }, code=BAD_DATA, version=6.16.0)
+    at async checkRolesAndStatus (src/app/page.js:49:34)
+  47 |       
+  48 |       // Check Role
+> 49 |       const DEFAULT_ADMIN_ROLE = await contract.DEFAULT_ADMIN_ROLE();
+     |                                  ^
+  50 |       const VERIFIER_ROLE = await contract.VERIFIER_ROLE();
+  51 |       if (await contract.hasRole(DEFAULT_ADMIN_ROLE, address)) setRole("Admin");
+  52 |       else if (await contract.hasRole(VERIFIER_ROLE, address)) setRole("Verifier"); (src/app/page.js:83:15)
+[browser] Error checking verification: Error: could not decode result data (value="0x", info={ "method": "DEFAULT_ADMIN_ROLE", "signature": "DEFAULT_ADMIN_ROLE()" }, code=BAD_DATA, version=6.16.0)
+    at async checkRolesAndStatus (src/app/page.js:49:34)
+  47 |       
+  48 |       // Check Role
+> 49 |       const DEFAULT_ADMIN_ROLE = await contract.DEFAULT_ADMIN_ROLE();
+     |                                  ^
+  50 |       const VERIFIER_ROLE = await contract.VERIFIER_ROLE();
+  51 |       if (await contract.hasRole(DEFAULT_ADMIN_ROLE, address)) setRole("Admin");
+  52 |       else if (await contract.hasRole(VERIFIER_ROLE, address)) setRole("Verifier"); (src/app/page.js:83:15)
+[browser] Error checking verification: Error: could not decode result data (value="0x", info={ "method": "DEFAULT_ADMIN_ROLE", "signature": "DEFAULT_ADMIN_ROLE()" }, code=BAD_DATA, version=6.16.0)
+    at async checkRolesAndStatus (src/app/page.js:49:34)
+  47 |       
+  48 |       // Check Role
+> 49 |       const DEFAULT_ADMIN_ROLE = await contract.DEFAULT_ADMIN_ROLE();
+     |                                  ^
+  50 |       const VERIFIER_ROLE = await contract.VERIFIER_ROLE();
+  51 |       if (await contract.hasRole(DEFAULT_ADMIN_ROLE, address)) setRole("Admin");
+  52 |       else if (await contract.hasRole(VERIFIER_ROLE, address)) setRole("Verifier"); (src/app/page.js:83:15)
+[browser] Error checking verification: Error: could not decode result data (value="0x", info={ "method": "DEFAULT_ADMIN_ROLE", "signature": "DEFAULT_ADMIN_ROLE()" }, code=BAD_DATA, version=6.16.0)
+    at async checkRolesAndStatus (src/app/page.js:49:34)
+  47 |       
+  48 |       // Check Role
+> 49 |       const DEFAULT_ADMIN_ROLE = await contract.DEFAULT_ADMIN_ROLE();
+     |                                  ^
+  50 |       const VERIFIER_ROLE = await contract.VERIFIER_ROLE();
+  51 |       if (await contract.hasRole(DEFAULT_ADMIN_ROLE, address)) setRole("Admin");
+  52 |       else if (await contract.hasRole(VERIFIER_ROLE, address)) setRole("Verifier"); (src/app/page.js:83:15)
+[browser] Error checking verification: Error: could not decode result data (value="0x", info={ "method": "DEFAULT_ADMIN_ROLE", "signature": "DEFAULT_ADMIN_ROLE()" }, code=BAD_DATA, version=6.16.0)
+    at async checkRolesAndStatus (src/app/page.js:49:34)
+  47 |       
+  48 |       // Check Role
+> 49 |       const DEFAULT_ADMIN_ROLE = await contract.DEFAULT_ADMIN_ROLE();
+     |                                  ^
+  50 |       const VERIFIER_ROLE = await contract.VERIFIER_ROLE();
+  51 |       if (await contract.hasRole(DEFAULT_ADMIN_ROLE, address)) setRole("Admin");
+  52 |       else if (await contract.hasRole(VERIFIER_ROLE, address)) setRole("Verifier"); (src/app/page.js:83:15)
+[browser] Error checking verification: Error: could not decode result data (value="0x", info={ "method": "DEFAULT_ADMIN_ROLE", "signature": "DEFAULT_ADMIN_ROLE()" }, code=BAD_DATA, version=6.16.0)
+    at async checkRolesAndStatus (src/app/page.js:49:34)
+  47 |       
+  48 |       // Check Role
+> 49 |       const DEFAULT_ADMIN_ROLE = await contract.DEFAULT_ADMIN_ROLE();
+     |                                  ^
+  50 |       const VERIFIER_ROLE = await contract.VERIFIER_ROLE();
+  51 |       if (await contract.hasRole(DEFAULT_ADMIN_ROLE, address)) setRole("Admin");
+  52 |       else if (await contract.hasRole(VERIFIER_ROLE, address)) setRole("Verifier"); (src/app/page.js:83:15)
+[browser] Error checking verification: Error: could not decode result data (value="0x", info={ "method": "DEFAULT_ADMIN_ROLE", "signature": "DEFAULT_ADMIN_ROLE()" }, code=BAD_DATA, version=6.16.0)
+    at async checkRolesAndStatus (src/app/page.js:49:34)
+  47 |       
+  48 |       // Check Role
+> 49 |       const DEFAULT_ADMIN_ROLE = await contract.DEFAULT_ADMIN_ROLE();
+     |                                  ^
+  50 |       const VERIFIER_ROLE = await contract.VERIFIER_ROLE();
+  51 |       if (await contract.hasRole(DEFAULT_ADMIN_ROLE, address)) setRole("Admin");
+  52 |       else if (await contract.hasRole(VERIFIER_ROLE, address)) setRole("Verifier"); (src/app/page.js:83:15)
+[browser] Error checking role: Error: could not decode result data (value="0x", info={ "method": "DEFAULT_ADMIN_ROLE", "signature": "DEFAULT_ADMIN_ROLE()" }, code=BAD_DATA, version=6.16.0)
+    at async checkRolesAndData (src/app/verifier/page.js:44:34)
+  42 |       const contract = new ethers.Contract(IDENTITY_CONTRACT_ADDRESS, IDENTITY_ABI, provid...
+  43 |       
+> 44 |       const DEFAULT_ADMIN_ROLE = await contract.DEFAULT_ADMIN_ROLE();
+     |                                  ^
+  45 |       const VERIFIER_ROLE = await contract.VERIFIER_ROLE();
+  46 |       
+  47 |       let currentRole = "User"; (src/app/verifier/page.js:60:15)
+[browser] Error checking roles: Error: could not decode result data (value="0x", info={ "method": "owner", "signature": "owner()" }, code=BAD_DATA, version=6.16.0)
+    at async checkRoles (src/app/admin/page.js:49:21)
+  47 |     try {
+  48 |       const auctionContract = new ethers.Contract(AUCTION_CONTRACT_ADDRESS, AUCTION_ABI, p...
+> 49 |       const owner = await auctionContract.owner();
+     |                     ^
+  50 |       const isAuctOwner = owner.toLowerCase() === address.toLowerCase();
+  51 |       setIsOwner(isAuctOwner);
+  52 |        (src/app/admin/page.js:68:15)
+[browser] Error checking role: Error: could not decode result data (value="0x", info={ "method": "DEFAULT_ADMIN_ROLE", "signature": "DEFAULT_ADMIN_ROLE()" }, code=BAD_DATA, version=6.16.0)
+    at async checkRolesAndData (src/app/verifier/page.js:44:34)
+  42 |       const contract = new ethers.Contract(IDENTITY_CONTRACT_ADDRESS, IDENTITY_ABI, provid...
+  43 |       
+> 44 |       const DEFAULT_ADMIN_ROLE = await contract.DEFAULT_ADMIN_ROLE();
+     |                                  ^
+  45 |       const VERIFIER_ROLE = await contract.VERIFIER_ROLE();
+  46 |       
+  47 |       let currentRole = "User"; (src/app/verifier/page.js:60:15)
+[browser] Error checking verification: Error: could not decode result data (value="0x", info={ "method": "DEFAULT_ADMIN_ROLE", "signature": "DEFAULT_ADMIN_ROLE()" }, code=BAD_DATA, version=6.16.0)
+    at async checkRolesAndStatus (src/app/page.js:49:34)
+  47 |       
+  48 |       // Check Role
+> 49 |       const DEFAULT_ADMIN_ROLE = await contract.DEFAULT_ADMIN_ROLE();
+     |                                  ^
+  50 |       const VERIFIER_ROLE = await contract.VERIFIER_ROLE();
+  51 |       if (await contract.hasRole(DEFAULT_ADMIN_ROLE, address)) setRole("Admin");
+  52 |       else if (await contract.hasRole(VERIFIER_ROLE, address)) setRole("Verifier"); (src/app/page.js:83:15)
+[browser] Error checking verification: Error: could not decode result data (value="0x", info={ "method": "DEFAULT_ADMIN_ROLE", "signature": "DEFAULT_ADMIN_ROLE()" }, code=BAD_DATA, version=6.16.0)
+    at async checkRolesAndStatus (src/app/page.js:49:34)
+  47 |       
+  48 |       // Check Role
+> 49 |       const DEFAULT_ADMIN_ROLE = await contract.DEFAULT_ADMIN_ROLE();
+     |                                  ^
+  50 |       const VERIFIER_ROLE = await contract.VERIFIER_ROLE();
+  51 |       if (await contract.hasRole(DEFAULT_ADMIN_ROLE, address)) setRole("Admin");
+  52 |       else if (await contract.hasRole(VERIFIER_ROLE, address)) setRole("Verifier"); (src/app/page.js:83:15)
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] Failed to fetch role members Error: network does not support ENS (operation="getEnsAddress", info={ "network": { "chainId": "31337", "name": "unknown" } }, code=UNSUPPORTED_OPERATION, version=6.16.0)
+    at async fetchRoleMembers (src/app/admin/page.js:60:13)
+    at async loadDashboardData (src/app/admin/page.js:93:30)
+  58 |       const active = [];
+  59 |       for (const addr of uniqueAddresses) {
+> 60 |         if (await contract.hasRole(roleHash, addr)) {
+     |             ^
+  61 |           active.push(addr);
+  62 |         }
+  63 |       } (src/app/admin/page.js:66:15)
+[browser] Failed to fetch role members Error: network does not support ENS (operation="getEnsAddress", info={ "network": { "chainId": "31337", "name": "unknown" } }, code=UNSUPPORTED_OPERATION, version=6.16.0)
+    at async fetchRoleMembers (src/app/admin/page.js:60:13)
+    at async loadDashboardData (src/app/admin/page.js:94:33)
+  58 |       const active = [];
+  59 |       for (const addr of uniqueAddresses) {
+> 60 |         if (await contract.hasRole(roleHash, addr)) {
+     |             ^
+  61 |           active.push(addr);
+  62 |         }
+  63 |       } (src/app/admin/page.js:66:15)
+[browser] ⨯ unhandledRejection: TypeError: unknown fragment (argument="event", value="AuctionStarted", code=INVALID_ARGUMENT, version=6.16.0)
+    at AuctionPage.useEffect.setupListener (src/app/auction/page.js:141:23)
+    at AuctionPage.useEffect (src/app/auction/page.js:157:62)
+  139 |         await fetchBidHistory(auctionContract);
+  140 |       } catch (err) {
+> 141 |         console.error("Failed to fetch auction data:", err);
+      |                       ^
+  142 |       }
+  143 |     } catch (err) {
+  144 |       console.error("Failed to initialize provider:", err);
+[browser] Failed to fetch auction data: TypeError: auctionContract.auctionActive is not a function
+    at AuctionPage.useCallback[checkData] (src/app/auction/page.js:103:23)
+  101 |         const identityContract = new ethers.Contract(IDENTITY_CONTRACT_ADDRESS, IDENTITY_...
+  102 |         const verifiedStatus = await identityContract.isVerified(address);
+> 103 |         setIsVerified(verifiedStatus);
+      |                       ^
+  104 |
+  105 |         const DEFAULT_ADMIN_ROLE = await identityContract.DEFAULT_ADMIN_ROLE();
+  106 |         const VERIFIER_ROLE = await identityContract.VERIFIER_ROLE(); (src/app/auction/page.js:112:7)
+[browser] ⨯ unhandledRejection: TypeError: unknown fragment (argument="event", value="AuctionStarted", code=INVALID_ARGUMENT, version=6.16.0)
+    at AuctionPage.useEffect.setupListener (src/app/auction/page.js:141:23)
+    at AuctionPage.useEffect (src/app/auction/page.js:157:62)
+  139 |         await fetchBidHistory(auctionContract);
+  140 |       } catch (err) {
+> 141 |         console.error("Failed to fetch auction data:", err);
+      |                       ^
+  142 |       }
+  143 |     } catch (err) {
+  144 |       console.error("Failed to initialize provider:", err);
+[browser] Failed to fetch auction data: TypeError: auctionContract.auctionActive is not a function
+    at AuctionPage.useCallback[checkData] (src/app/auction/page.js:103:23)
+  101 |         const identityContract = new ethers.Contract(IDENTITY_CONTRACT_ADDRESS, IDENTITY_...
+  102 |         const verifiedStatus = await identityContract.isVerified(address);
+> 103 |         setIsVerified(verifiedStatus);
+      |                       ^
+  104 |
+  105 |         const DEFAULT_ADMIN_ROLE = await identityContract.DEFAULT_ADMIN_ROLE();
+  106 |         const VERIFIER_ROLE = await identityContract.VERIFIER_ROLE(); (src/app/auction/page.js:112:7)
+[browser] Error loading dashboard data: TypeError: auctionContract.auctionActive is not a function
+    at loadDashboardData (src/app/admin/page.js:90:44)
+  88 |       else setRole("User");
+  89 |
+> 90 |       const active = await auctionContract.auctionActive();
+     |                                            ^
+  91 |       setAuctionActive(active);
+  92 |
+  93 |       if (isIdAdmin) { (src/app/admin/page.js:101:15)
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⨯ ReferenceError: auctionActive is not defined
+    at AdminPage (src\app\admin\page.js:411:22)
+  409 |                   <div className="flex flex-col items-center justify-center p-8 bg-gray-9...
+  410 |                     <p className="text-sm font-medium text-gray-400 uppercase tracking-wi...
+> 411 |                     {auctionActive ? (
+      |                      ^
+  412 |                       <div className="flex flex-col items-center">
+  413 |                         <div className="relative">
+  414 |                           <div className="w-20 h-20 bg-green-500/20 rounded-full flex ite... {
+  digest: '97540279'
+}
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+⚠ Fast Refresh had to perform a full reload due to a runtime error.
+[browser] Error loading dashboard data: TypeError: auctionContract.auctionActive is not a function
+    at loadDashboardData (src/app/admin/page.js:93:44)
+  91 |       else setRole("User");
+  92 |
+> 93 |       const active = await auctionContract.auctionActive();
+     |                                            ^
+  94 |       setAuctionActive(active);
+  95 |
+  96 |       if (isIdAdmin) { (src/app/admin/page.js:119:15)
+[browser] Error loading dashboard data: TypeError: auctionContract.auctionActive is not a function
+    at loadDashboardData (src/app/admin/page.js:93:44)
+  91 |       else setRole("User");
+  92 |
+> 93 |       const active = await auctionContract.auctionActive();
+     |                                            ^
+  94 |       setAuctionActive(active);
+  95 |
+  96 |       if (isIdAdmin) { (src/app/admin/page.js:119:15)
+[browser] Error loading dashboard data: TypeError: auctionContract.auctionActive is not a function
+    at loadDashboardData (src/app/admin/page.js:93:44)
+  91 |       else setRole("User");
+  92 |
+> 93 |       const active = await auctionContract.auctionActive();
+     |                                            ^
+  94 |       setAuctionActive(active);
+  95 |
+  96 |       if (isIdAdmin) { (src/app/admin/page.js:119:15)
+[browser] Error loading dashboard data: TypeError: auctionContract.auctionActive is not a function
+    at loadDashboardData (src/app/admin/page.js:93:44)
+  91 |       else setRole("User");
+  92 |
+> 93 |       const active = await auctionContract.auctionActive();
+     |                                            ^
+  94 |       setAuctionActive(active);
+  95 |
+  96 |       if (isIdAdmin) { (src/app/admin/page.js:119:15)
+[browser] ⨯ unhandledRejection: TypeError: unknown fragment (argument="event", value="AuctionCreated", code=INVALID_ARGUMENT, version=6.16.0)
+    at AuctionPage.useEffect.setupListener (src/app/auction/page.js:108:25)
+    at AuctionPage.useEffect (src/app/auction/page.js:122:5)
+  106 |         });
+  107 |         
+> 108 |         auctionContract.on("AuctionCreated", () => {
+      |                         ^
+  109 |           checkData(walletAddress);
+  110 |         });
+  111 |
+[browser] Failed to fetch auction data: TypeError: auctionContract.getAuctions is not a function
+    at AuctionPage.useCallback[checkData] (src/app/auction/page.js:71:51)
+  69 | ...ry {
+  70 | ... const auctionContract = new ethers.Contract(AUCTION_CONTRACT_ADDRESS, AUCTION_ABI, pro...
+> 71 | ... const allAuctions = await auctionContract.getAuctions();
+     |                                               ^
+  72 | ... 
+  73 | ... const formattedAuctions = allAuctions.map(auc => ({
+  74 | ...   id: Number(auc.id), (src/app/auction/page.js:84:17)

@@ -31,6 +31,9 @@ contract KYCGatedAuction {
 
     // 🚀 Start auction
     function startAuction() external onlyOwner {
+        require(!auctionActive, "Auction is already active");
+        highestBid = 0;
+        highestBidder = address(0);
         auctionActive = true;
         emit AuctionStarted();
     }
