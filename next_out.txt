@@ -125,3 +125,6 @@
  GET / 200 in 84ms (next.js: 5ms, application-code: 79ms)
  GET / 200 in 85ms (next.js: 6ms, application-code: 78ms)
  GET / 200 in 99ms (next.js: 7ms, application-code: 93ms)
+ GET /auction 200 in 47ms (next.js: 5ms, application-code: 42ms)
+ GET / 200 in 51ms (next.js: 6ms, application-code: 45ms)
+ GET / 200 in 116ms (next.js: 8ms, application-code: 109ms)

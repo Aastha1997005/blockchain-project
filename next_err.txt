@@ -3549,3 +3549,23 @@ Import traces:
   44 |       const statusNames = ["None", "Verified", "Revoked"];
   45 |       // status is returned as bigint or number from ethers v6. convert to Number()
   46 |       setUserStatus(statusNames[Number(identity.status)]); (src/app/page.js:58:15)
+[browser] Failed to fetch contract data: Error: could not decode result data (value="0x", info={ "method": "getIdentity", "signature": "getIdentity(address)" }, code=BAD_DATA, version=6.16.0)
+    at async fetchUserBlockchainData (src/app/page.js:43:24)
+    at async connectWallet (src/app/page.js:29:9)
+  41 |       
+  42 |       // 1. Check user verification status
+> 43 |       const identity = await contract.getIdentity(address);
+     |                        ^
+  44 |       const statusNames = ["None", "Verified", "Revoked"];
+  45 |       // status is returned as bigint or number from ethers v6. convert to Number()
+  46 |       setUserStatus(statusNames[Number(identity.status)]); (src/app/page.js:58:15)
+[browser] Failed to fetch contract data: Error: could not decode result data (value="0x", info={ "method": "getIdentity", "signature": "getIdentity(address)" }, code=BAD_DATA, version=6.16.0)
+    at async fetchUserBlockchainData (src/app/page.js:43:24)
+    at async connectWallet (src/app/page.js:29:9)
+  41 |       
+  42 |       // 1. Check user verification status
+> 43 |       const identity = await contract.getIdentity(address);
+     |                        ^
+  44 |       const statusNames = ["None", "Verified", "Revoked"];
+  45 |       // status is returned as bigint or number from ethers v6. convert to Number()
+  46 |       setUserStatus(statusNames[Number(identity.status)]); (src/app/page.js:58:15)
