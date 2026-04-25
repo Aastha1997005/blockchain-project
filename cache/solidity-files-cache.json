@@ -1,9 +1,9 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
-    "D:\\CODEFORCES\\my-identity-dapp\\contracts\\Identity.sol": {
-      "lastModificationDate": 1777064528697,
-      "contentHash": "2b5f70378f5583fb61257ecd382e353a",
+    "D:\\blockchain\\blockchain-project\\contracts\\Identity.sol": {
+      "lastModificationDate": 1777105858756,
+      "contentHash": "621ff8f5c2a424037a837edd12e63575",
       "sourceName": "contracts/Identity.sol",
       "solcConfig": {
         "version": "0.8.28",
@@ -35,6 +35,43 @@
       ],
       "artifacts": [
         "Identity"
+      ]
+    },
+    "D:\\blockchain\\blockchain-project\\contracts\\KYCGatedAuction.sol": {
+      "lastModificationDate": 1777105858787,
+      "contentHash": "74045000efedb1c1f21ed9951da22489",
+      "sourceName": "contracts/KYCGatedAuction.sol",
+      "solcConfig": {
+        "version": "0.8.28",
+        "settings": {
+          "evmVersion": "paris",
+          "optimizer": {
+            "enabled": false,
+            "runs": 200
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "IIdentityVerifier",
+        "KYCGatedAuction"
       ]
     }
   }

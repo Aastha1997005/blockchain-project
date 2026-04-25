@@ -1,0 +1,1 @@
+[33m[1mWARNING:[22m[39m You are currently using Node.js v25.8.1, which is not supported by Hardhat. This can lead to unexpected behavior. See https://v2.hardhat.org/nodejs-versions

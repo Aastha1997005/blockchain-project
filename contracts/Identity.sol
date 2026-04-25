@@ -66,7 +66,7 @@ contract Identity {
     }
 
     // --- UTILITY/AUCTION FUNCTION ---
-    function checkIsVerified(address _user) public view returns (bool) {
+    function isVerified(address _user) public view returns (bool) {
         return keccak256(bytes(userStatus[_user])) == keccak256(bytes("Verified"));
     }
 }
